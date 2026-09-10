@@ -1,0 +1,3 @@
+-r requirements.txt
+--no-binary=torch-scatter
+torch-scatter==2.1.2

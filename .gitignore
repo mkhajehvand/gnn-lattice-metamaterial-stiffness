@@ -1,0 +1,9 @@
+gnn_lattice_metamaterial_stiffness/data/Unit_Cell_Catalog.txt
+__pycache__/
+.vscode/
+.DS_Store
+dataset_cache/
+Outputs/
+*.log
+tests/
+gnn_lattice_metamaterial_stiffness/fonts/HelveticaNeue.ttc
