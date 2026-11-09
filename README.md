@@ -1,6 +1,6 @@
-# Centrality-Guided Joint–Strut Bipartite Graph Neural Networks for Stiffness Prediction of Lattice Metamaterials
+# Graph Neural Networks for Stiffness Prediction of Lattice Metamaterials: Effects of Graph Representation and Centrality-Guided Pooling
 
-This repository contains the code and data [to be added] associated with the manuscript.
+This repository contains the code and result data associated with the manuscript.
 
 ## Repository structure
 
@@ -24,6 +24,10 @@ requirements.txt
 requirements-hpcc.txt
 results/
   README.md
+  centrality_ablation_results.csv
+  final_evaluation_results.csv
+  hyperparameter_sweep_results.csv
+  representative_bipartite_test_predictions.csv
 ```
 
 ## Usage
@@ -72,4 +76,4 @@ python -m gnn_lattice_metamaterial_stiffness.script --mode final-evaluation
 
 ## Results
 
-[to be added]
+The result data supporting the figures, tables, and analyses reported in the manuscript are provided in the [`results`](results/) directory.
